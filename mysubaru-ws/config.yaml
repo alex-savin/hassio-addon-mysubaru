@@ -7,6 +7,7 @@ arch:
   - aarch64
 startup: services
 boot: auto
+init: false
 ports:
   8080/tcp: null
 ports_description:
@@ -21,4 +22,4 @@ environment:
   WS_LISTEN_ADDR: ":8080"
 map:
   - config:rw
-image: "ghcr.io/alex-savin/mysubaru-ws-addon-amd64"
+image: "local/mysubaru-ws-addon-{arch}"
