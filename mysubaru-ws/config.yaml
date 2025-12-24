@@ -21,4 +21,4 @@ environment:
   WS_LISTEN_ADDR: ":8080"
 map:
   - config:rw
-image: "local/mysubaru-ws-addon-{arch}"
+image: "ghcr.io/alex-savin/mysubaru-ws-addon-amd64"
