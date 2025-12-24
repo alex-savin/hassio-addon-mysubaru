@@ -1,4 +1,4 @@
-# MySubaru Websocket Home Assistant Add-on Repository
+ MySubaru Websocket Home Assistant Add-on Repository
 
 This repository exposes the MySubaru websocket add-on for Home Assistant. It relies on a Docker image that contains the websocket server; you can build and tag the image locally or publish it to a registry, then point the add-on to that image via `config.yaml`.
 
