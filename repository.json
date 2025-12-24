@@ -1,0 +1,6 @@
+{
+  "name": "MySubaru Websocket Add-on",
+  "url": "https://example.com/mysubaru-ws-addon-repo",
+  "maintainer": "Alexander Savin <alex@savin.nyc>",
+  "homeassistant": "2024.6.0"
+}
