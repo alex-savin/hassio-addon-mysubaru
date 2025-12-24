@@ -21,4 +21,4 @@ environment:
   WS_LISTEN_ADDR: ":8080"
 map:
   - config:rw
-image: "local/mysubaru-ws-addon:latest"
+image: "local/mysubaru-ws-addon-{arch}"
