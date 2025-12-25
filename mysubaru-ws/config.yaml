@@ -15,11 +15,9 @@ ports_description:
 schema:
   log_level: str?
   poll_interval_seconds: int?
-  ws_listen_addr: str?
 options:
   log_level: info
   poll_interval_seconds: 300
-  ws_listen_addr: ":8080"
 environment:
   WS_LISTEN_ADDR: ":8080"
 map:
